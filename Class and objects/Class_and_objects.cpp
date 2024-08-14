@@ -2,14 +2,14 @@
 #include "Class.h"
 using namespace std;
 
-Student::Student(string name, int RollNumber, char grade){
-    name = name;
-    RollNumber = RollNumber;
-    grade = grade;
+Student::Student(string n, int R, char g){
+    this->name = n;
+    this->RollNumber = R;
+    this->grade = g;
 }
 
 void Student::Display(){
-    std::cout << "Student name is: " << name;
-    std::cout << "Student roll number is: " << RollNumber;
-    std::cout << "Student grade is: " << grade;
+    std::cout << "Student name is: " << name << endl;
+    std::cout << "Student roll number is: " << RollNumber << endl;
+    std::cout << "Student grade is: " << grade << endl;
 }
